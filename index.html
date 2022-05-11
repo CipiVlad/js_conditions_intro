@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        section {
+            margin: 10vh;
+            background-color: lightblue;
+            padding: 20%;
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,14 +28,25 @@
 
 
     <!-- -------- m•a•i•n ----------------->
-    <main>
+    <section>
         <form action="" onsubmit="return false">
             <label for="">Age</label>
             <input type="number" name="" id="input-number" placeholder="Enter Age" required>
             <input type="submit" value="Submit" onclick="adult()">
         </form>
         <h2 id="status"></h2>
-    </main>
+    </section>
+    <section>
+        <form action="" onsubmit="return false">
+            <label for="">Weather-Quality</label>
+            <input type="number" name="" id="input-qualitynumber" placeholder="Enter Number" required>
+            <input type="submit" value="Submit" onclick="weather()">
+        </form>
+        <h2 id="qstatus"></h2>
+    </section>
+
+
+
 
     <!-- ---------- f•o•o•t•e•r ------------- -->
     <footer></footer>
