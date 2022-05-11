@@ -45,3 +45,24 @@ function weather() {
 };
 
 
+// shisha-rauchen
+
+let inputShisha
+
+function greaterThan() {
+    event.preventDefault();
+    console.log('hi');
+
+    inputShisha = document.getElementById("input").value;
+    console.log(inputShisha);
+
+    if (inputShisha >= 18) {
+        console.log('true');
+        document.getElementById('shisha').innerHTML = "Yo, lass' einen rauchen!";
+    } else if (inputShisha <= 18) {
+        console.log('false');
+        document.getElementById('shisha').innerHTML = "No Way, digger. Bei dir raucht nur der Schornstein!";
+    }
+
+};
+
